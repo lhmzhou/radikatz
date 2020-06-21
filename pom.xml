@@ -96,11 +96,13 @@
                 <version>${vertx.version}</version>
             </dependency>
 
+           <!-- https://mvnrepository.com/artifact/io.vertx/vertx-redis-client -->
             <dependency>
                 <groupId>io.vertx</groupId>
                 <artifactId>vertx-redis-client</artifactId>
-                <version>${vertx.version}</version>
+                <version>3.9.1</version>
             </dependency>
+
 
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
